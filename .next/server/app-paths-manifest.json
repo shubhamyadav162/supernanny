@@ -1,0 +1,17 @@
+{
+  "/_not-found": "app/_not-found.js",
+  "/page": "app/page.js",
+  "/about/page": "app/about/page.js",
+  "/checkout/page": "app/checkout/page.js",
+  "/contact/page": "app/contact/page.js",
+  "/nannies/page": "app/nannies/page.js",
+  "/services/page": "app/services/page.js",
+  "/api/bookings/route": "app/api/bookings/route.js",
+  "/api/checkout/route": "app/api/checkout/route.js",
+  "/api/nannies/route": "app/api/nannies/route.js",
+  "/api/payments/route": "app/api/payments/route.js",
+  "/api/profiles/route": "app/api/profiles/route.js",
+  "/api/services/route": "app/api/services/route.js",
+  "/blog/page": "app/blog/page.js",
+  "/blog/[slug]/page": "app/blog/[slug]/page.js"
+}

@@ -1,3 +1,5 @@
+import React from 'react';
+
 export interface Post {
   slug: string;
   title: string;

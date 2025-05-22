@@ -1,11 +1,22 @@
 import { NextResponse } from 'next/server';
 import { Client, Databases, ID } from 'appwrite';
 
-const client = new Client()
-  .setEndpoint(process.env.APPWRITE_ENDPOINT!)
-  .setProject(process.env.APPWRITE_PROJECT_ID!)
-  // @ts-ignore
-  .setKey(process.env.APPWRITE_API_KEY!);
+// Initialize the Appwrite client with proper environment variable checks
+const client = new Client();
+
+// Make sure endpoint and project ID are properly defined before using them
+if (process.env.APPWRITE_ENDPOINT && process.env.APPWRITE_PROJECT_ID) {
+  client
+    .setEndpoint(process.env.APPWRITE_ENDPOINT)
+    .setProject(process.env.APPWRITE_PROJECT_ID);
+} else {
+  console.error('Appwrite environment variables are not properly configured');
+}
+
+// Set API key as JWT for authentication if provided
+if (process.env.APPWRITE_API_KEY) {
+  client.setJWT(process.env.APPWRITE_API_KEY);
+}
 
 const databases = new Databases(client);
 

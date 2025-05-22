@@ -3,9 +3,12 @@ import { Client, Databases, ID } from 'appwrite';
 
 const client = new Client()
   .setEndpoint(process.env.APPWRITE_ENDPOINT!)
-  .setProject(process.env.APPWRITE_PROJECT_ID!)
-  // @ts-ignore
-  .setKey(process.env.APPWRITE_API_KEY!);
+  .setProject(process.env.APPWRITE_PROJECT_ID!);
+
+// Set API key as JWT for authentication if provided
+if (process.env.APPWRITE_API_KEY) {
+  client.setJWT(process.env.APPWRITE_API_KEY);
+}
 
 const databases = new Databases(client);
 

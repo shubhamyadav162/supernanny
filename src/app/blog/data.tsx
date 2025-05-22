@@ -11,7 +11,7 @@ export const posts: Post[] = [
     slug: 'importance-of-play',
     title: 'The Importance of Play in Child Development',
     content: (
-      <>
+      <React.Fragment>
         <h2 className="text-2xl font-bold mb-4">Introduction</h2>
         <p>Play is the language of childhood. It's through play that children explore the world around them, experiment with roles, and test boundaries, laying the foundation for future learning, creativity, and social skills.</p>
         <h3 className="text-xl font-semibold mt-4 mb-2">Cognitive Development</h3>
@@ -29,14 +29,14 @@ export const posts: Post[] = [
           <li>Observe without judgment to understand a child's interests and developmental needs.</li>
         </ul>
         <p>By valuing play as a fundamental learning tool, parents and nannies can nurture confident, curious, and well-rounded children.</p>
-      </>
+      </React.Fragment>
     ),
   },
   {
     slug: 'choosing-the-perfect-nanny',
     title: 'Choosing the Perfect Nanny: Tips for Parents',
     content: (
-      <>
+      <React.Fragment>
         <h2 className="text-2xl font-bold mb-4">Introduction</h2>
         <p>Entrusting someone with your child's care is one of the most important decisions a parent can make. A nurturing, dependable nanny safeguards your child's well-being, supports their development, and brings peace of mind to your family.</p>
         <h2 className="text-2xl font-bold mt-6 mb-4">1. Define Your Family's Needs</h2>
@@ -61,14 +61,14 @@ export const posts: Post[] = [
         <h2 className="text-2xl font-bold mt-6 mb-4">6. Building a Strong Relationship</h2>
         <p>Maintain weekly check-ins, share progress photos, and discuss challenges. Positive reinforcement and clear communication foster trust and a long-lasting partnership.</p>
         <p>By following these steps, you ensure that your chosen nanny becomes a treasured member of your family's support system.</p>
-      </>
+      </React.Fragment>
     ),
   },
   {
     slug: 'balancing-work-and-parenthood',
     title: 'Balancing Work and Parenthood: Strategies for Success',
     content: (
-      <>
+      <React.Fragment>
         <h2 className="text-2xl font-bold mb-4">Introduction</h2>
         <p>Balancing career aspirations with the responsibilities of parenthood is a modern challenge. Achieving harmony between work and home life enhances well-being, productivity, and family happiness.</p>
         <h2 className="text-2xl font-bold mt-6 mb-4">1. Time Management & Planning</h2>
@@ -86,14 +86,14 @@ export const posts: Post[] = [
         <h2 className="text-2xl font-bold mt-6 mb-4">5. Quality Family Time</h2>
         <p>Make the most of routines: family meals, bedtime stories, and weekend outings. Even short, intentional moments create lasting bonds.</p>
         <p>By integrating smart strategies and a supportive network, working parents can thrive both professionally and personally.</p>
-      </>
+      </React.Fragment>
     ),
   },
   {
     slug: 'healthy-sleep-habits',
     title: 'Cultivating Healthy Sleep Habits in Children',
     content: (
-      <>
+      <React.Fragment>
         <h2 className="text-2xl font-bold mb-4">Introduction</h2>
         <p>Quality sleep is vital for a child's mental, emotional, and physical development. Healthy sleep habits contribute to improved attention, mood stability, and overall growth.</p>
         <h2 className="text-2xl font-bold mt-6 mb-4">1. Understanding Sleep Needs</h2>
@@ -113,14 +113,14 @@ export const posts: Post[] = [
           <li><strong>Daytime Napping:</strong> Balance naps to prevent overtiredness without disrupting nighttime sleep.</li>
         </ul>
         <p>Consistency, patience, and gentle guidance help children develop lifelong healthy sleep habits.</p>
-      </>
+      </React.Fragment>
     ),
   },
   {
     slug: 'nutrition-101',
     title: 'Nutrition 101: Feeding Your Growing Child',
     content: (
-      <>
+      <React.Fragment>
         <h2 className="text-2xl font-bold mb-4">Introduction</h2>
         <p>Proper nutrition fuels a child's growth, brain development, and immune system. Introducing healthy eating habits early lays the groundwork for a lifetime of wellness.</p>
         <h2 className="text-2xl font-bold mt-6 mb-4">1. Essential Nutrients for Growing Bodies</h2>
@@ -143,7 +143,7 @@ export const posts: Post[] = [
         <h2 className="text-2xl font-bold mt-6 mb-4">5. Hydration & Snacks</h2>
         <p>Encourage water as the primary drink. Offer healthy snacks like fruit slices, yogurt, whole grain crackers, and vegetable sticks.</p>
         <p>By focusing on balanced nutrition, you help your child thrive physically and mentally through every growth milestone.</p>
-      </>
+      </React.Fragment>
     ),
   },
 ]; 

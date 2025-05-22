@@ -14,9 +14,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-      </head>
+      <head />
       <body className="min-h-screen hero-gradient">
         <Header />
         <div className="max-w-[1440px] mx-auto">
